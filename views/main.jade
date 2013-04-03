@@ -1,0 +1,36 @@
+extends layout
+
+block content
+	div.Conte_Body
+		div#chat
+			h1.title_chat Text chat communicator
+			div.main
+				<!--Usuarios conectados-->
+				div.users_conectados
+					div.subtitle_chat OTHER MEMBERS ONLINE
+					div#colusers_activos						
+				div.contenedor_chat
+					div#header_messages You are in the public chat room
+					<!--contenedor de los mensajes del chat-->
+					div#messages							
+						<!--->	
+					form(onsubmit="chat_msgs_add(); return false;" , action="")
+					div.cont_botones
+						textarea#send_message.textarea_chat(rows='1')
+						input#submit_send.btn_Enviar(type='submit',value="Send")
+						div.clear
+				div.users_messages
+					div.subtitle_chat ACTIVE CONVERSATIONS
+					
+					<!--Link para regresar a la sala-->
+					div
+						a.public_room(href='#') 
+							img(src='css/images/ella_icono.png', width='35', height='35', alt='User')
+							span Public chat room
+						<!--Bloque usuarios conectados-->
+						a.user_activ(href='#') 
+							img(src='css/images/69668_Rana_Sengupta_1156.jpg', width='35', height='35', alt='User')
+							span.name_user_activ Renee Ortiz
+							span.state_user Online
+						<!---->		
+				div.clear

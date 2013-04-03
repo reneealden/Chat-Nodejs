@@ -1,0 +1,222 @@
+@charset "utf-8";
+img{
+	border: 0px;
+}
+.Conte_Body{
+	height: auto;
+    position: relative;
+    width: 100%;
+}
+#chat{
+	height: auto;
+    margin: 0 auto;
+    padding: 0 0 20px;
+    width: 850px;
+}
+.users_conectados{
+	display: block;
+    float: left;
+    height: 475px;
+    margin: 0 5px 0 0;
+    width: 150px;
+}
+.contenedor_chat{
+	background-color: #ECECEC;
+    display: block;
+    float: left;
+    height: 475px;
+    margin: 0;
+    width: 502px;
+    position: relative;
+}
+.users_messages{
+	display: block;
+    float: left;
+    height: 475px;
+    width: 185px;
+    margin: 0px 0px 0px 5px;
+}
+.title_chat{
+	color: #333;
+	font: bold 20px Arial,Helvetica,sans-serif;
+}
+.subtitle_chat{
+	background-color: #ECECEC;
+    color: #000;
+    display: block;
+    font: bold 11px/28px Arial,Helvetica,sans-serif;
+    text-align: center;
+}
+#header_messages{
+	background-color: #009680;
+	padding: 0px 0px 0px 12px;
+	border: medium none;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 0;
+    text-decoration: none;
+}
+#messages{
+	width: 490px;
+	margin: 0 auto;
+	height: 370px;
+	background-color: #fff;
+	overflow: auto;
+}
+.bloque_chat{
+	width: 460px;
+	display: block;
+	margin: 20px 0 0 5px;
+	height: auto;
+}
+.img_chat{
+	height: auto;
+	width: 40px;
+	float: left;
+}
+.comment_chat{
+	width: 420px;
+	float: left;
+	height: auto;
+}
+.title_user_chat{
+	width: 270px;
+	float: left;
+	color: #333;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	display: block;
+}
+.cont_text_chat{
+	font: 12px Arial, Helvetica, sans-serif;
+    height: auto;
+    margin: 5px 0 0;
+    width: 420px;
+}
+.date_chat{
+	float: left;
+	color: #333;
+	font: 12px Arial, Helvetica, sans-serif;
+	width: 150px;
+	display: block;
+}
+.cont_botones{
+	width: 490px;
+	margin: 10px auto 0px;
+	height: auto;
+}
+.user_online{
+	display: inline-block;
+    height: auto;
+    margin: 10px 0 0;
+    width: 150px;
+    text-decoration: none;
+}
+.user_activ{
+	display: inline-block;
+    height: auto;
+    margin: 5px 0 0;
+    width: 185px;
+    text-decoration: none;
+}
+.user_online img,
+.public_room img,
+.user_activ img{
+	float: left;
+}
+.user_online span{
+    color: #6B6B6B;
+    float: left;
+    font: bold 12px Arial,Helvetica,sans-serif;
+    padding: 0 0 0 5px;
+    width: 110px;
+    cursor: pointer;
+}
+.name_user_activ{
+	color: #6B6B6B;
+    float: left;
+    font: bold 12px Arial,Helvetica,sans-serif;
+    padding: 0 0 0 5px;
+    width: 145px;
+    cursor: pointer;
+    display: block;
+}
+.state_user{
+	color: #009680;
+	font: bold 12px Arial,Helvetica,sans-serif;
+	float: left;
+	display: block;
+	padding: 0px 0px 0px 5px;
+}
+.public_room{
+	background-color: #ECECEC;
+	display: inline-block;
+    height: auto;
+    margin: 5px 0 0;
+    text-decoration: none;
+    padding: 8px 0px;
+    width: 185px;
+}
+.public_room span{
+	color: #F59F00;
+    cursor: pointer;
+    float: left;
+    font: bold 12px Arial,Helvetica,sans-serif;
+    padding: 0 0 0 5px;
+    width: 110px;
+}
+.textarea_chat{
+	background-color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    resize: none;
+    width: 370px;
+    background-image: url("images/bg_post_textarea.png");
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #CECECE;
+    border-left: 1px solid #CECECE;
+    border-right: 1px solid #CECECE;
+    border-style: none solid solid;
+    color: #666666;
+    font: 1.2em/20px Arial,Helvetica,sans-serif;
+    margin: 5px 0;
+    padding: 5px;
+    text-align: left;
+}
+.btn_Enviar{
+	background: url("images/btn_Enviar.png");
+	background-repeat: no-repeat;
+    color: #FFFFFF;
+    display: inline-block;
+    font: bold 16px Arial,Helvetica,sans-serif;
+    height: 31px;
+    margin: 25px 0 0 5px;
+    padding: 4px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 101px;
+    border: none;
+    cursor: pointer;
+}
+.notificacion_chat{
+	width: 490px;
+	height: auto;
+	margin: 0 auto;
+}
+.notificacion_chat{
+	font: bold 16px Arial,Helvetica,sans-serif;
+	color: #333;
+	text-align: left;
+}
+.clear{
+	clear: both;
+}
+#colusers_activos{
+	height: 446px;
+	overflow: auto;
+	display: block;
+	width: 150px;
+}
